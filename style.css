@@ -1,3 +1,13 @@
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+.navbar .container{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
 .image-carousel{
     height: 400px;
 }
@@ -7,7 +17,7 @@
 }
 .carousel{
     background-color: #feeae9;
-    padding: 20px 40px;
+    padding: 10px 40px;
     height: 100%;
 }
 .price{
@@ -16,9 +26,47 @@
 .price-btn{
     background-color:#FF5898;
     border:none;
-    z-index: 1000;
+    margin-top: 20px;
+  
 }
 .container-fluid{
     margin-bottom: 100px;
     padding: 0px 0px;
+}
+.container {
+    margin-top:100px;
+
+}
+.col-md-7{
+    padding-left: 200px;
+}
+
+.cat1, .cat2, .cat3{
+    border-radius: 10px;
+    margin:0 10px;
+    padding:10px 15px;
+    color:white;
+}
+.catagories img{
+    width:130px;
+}
+.cat1{
+    background-image: linear-gradient(90deg,orange,rgb(255, 208, 0));
+}
+.cat2{
+    background-image: linear-gradient(90deg,orange,rgb(255, 208, 0));
+}
+.cat3{
+    background-image: linear-gradient(90deg,orange,rgb(255, 208, 0));
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.card:hover{
+    box-shadow:10px 10px 10px lightgray ;
+}
+#contact{
+    background-color: #feeae9;
+    height: 300px;
 }
